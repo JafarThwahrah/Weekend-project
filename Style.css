@@ -7,6 +7,7 @@
 header{
     background-color: rgb(171, 65, 65);
     position: relative;
+    background: linear-gradient(180deg,rgb(171, 65, 65) 0%, rgba(43, 44, 112, 0.4) 99.99%, rgba(74, 80, 125, 0) 100%);
 }
 header img{
     height: 100px;
@@ -26,15 +27,27 @@ header li{
     display: inline;
     padding: 1.2em 1.2em 1.2em 1.2em;
 }
+.searchInput:active { background-image:none; }
 nav {
     height: 130px;
 }
 .searchInput{
-    margin-left: 100px;
+  margin-left: 100px;
   border-radius: 20px;
   border: none;
   width: 100px;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(https://aux.iconspalace.com/uploads/1352231607285850304.png);
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  background-size: 20px 16px;
+  background-position: 5px;
+}
+.searchIcon{
+    height: 18px;
+    width: 18px;
+    position: inline;
+    margin-right: 150px;
 }
 .searchButton{
     border-radius: 20px;
@@ -60,6 +73,9 @@ header a:hover{
 }
 button:hover{
     background-color:rgb(196, 191, 186);
+}
+button{
+    cursor:pointer;
 }
 
 main{
@@ -90,6 +106,7 @@ main div p {
 .midIMG-container{
     margin-top: 3em;
     position: relative;
+    height: 500px;
 }
 .firstBook{
 display: inline;
@@ -114,10 +131,89 @@ width: 250px;
     width: 250px;
 }
 span{
-    font-size:x-small;
+    font-size:small;
 }
 .newBooks{
     margin-left: 500px;
 }
 
+.bottombackground-container{
 
+    position: relative;
+}
+.bottombackground{
+    height: 400px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    background-blend-mode:darken;
+    opacity: 80%;
+}
+.h2Secondbg{
+    text-align: center;
+    z-index: 1;
+    font-size: xx-large;
+    color: rgb(71, 0, 0);
+    padding-top: 150px;
+    margin-bottom: 130px;
+
+}
+
+
+section{
+    margin-top: 0;
+    padding-top: 80px;
+    background: radial-gradient(50% 50% at 50% 50%, #baa88e 0%, rgba(74, 80, 125, 0) 100%);
+
+position: relative;
+}
+.firstbookimage{
+    margin-left: 450px;
+    position: absolute;
+    height: 300px;
+    margin-top: 50px;
+}
+.formNum1{
+    height: 380px;
+    width: 230px;
+    margin-left: 850px;
+    padding: 2em 2em 2em 2em;
+    background-color: beige;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    
+}
+.formNum2{
+    height: 380px;
+    width: 230px;
+    margin-left: 450px;
+    padding: 2em 2em 2em 2em;
+    background-color: beige;
+    border-radius: 15px;
+    position: absolute;
+}
+.secondbookimage{
+    margin-left: 850px;
+    height: 300px;
+    margin-top: 50px;
+    padding-bottom: 144px; ;
+}
+.testimonais{
+    text-align: center;
+}
+table td{
+    width: 240px;
+    padding:50px 50px 50px 50px;
+    background-color:#f0dcc1;
+    border-radius: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+table{
+    margin-left: 240px;
+}
+.checked {
+    color: orange;
+  }
