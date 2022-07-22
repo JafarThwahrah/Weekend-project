@@ -1,19 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background-color: rgb(171, 65, 65);
+    position: relative;
 }
 header img{
     height: 100px;
     width: 130px;
     border-radius: 50%;
-    display: inline;
+    position: absolute;
+    margin-top: 1.1em;
+    margin-left: 1.1em;
 }
 header ul {
     list-style: none;
-    display: inline;
+    margin-top: 0;
+    margin-left: 150px;
+    padding-top: 60px;
 }
 header li{
     display: inline;
-    padding: 2em 2em 2em 2em;
-    /* margin: 1.5em; */
+    padding: 1.2em 1.2em 1.2em 1.2em;
 }
+nav {
+    height: 130px;
+}
+.searchInput{
+    margin-left: 100px;
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.searchButton{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.loginSignup{
+
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    padding: 12.5px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+header a:hover{
+    background-color: brown;
+}
+button:hover{
+    background-color:rgb(196, 191, 186);
+}
+
+main{
+    position: relative;
+    margin-top: 0;
+}
+.introImg{
+position: absolute;
+height: 250px;
+width: 100%;
+height: 250px;
+z-index: -1;
+opacity: 90%;
+}
+.introText{
+    margin-top: 0;
+   z-index: 1;
+   padding-top: 45px;
+}
+main div h3 {
+    margin-top: 0;
+    font-size:x-large;
+}
+
+main div p {
+    font-size:larger;
+}
+.midIMG-container{
+    margin-top: 3em;
+    position: relative;
+}
+.firstBook{
+display: inline;
+position: absolute;
+margin-left: 250px;
+width: 250px;
+
+}
+
+.secondBook{
+    display: inline;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 80px;
+    width: 250px;
+}
+
+.thirdBook{
+    display: inline;
+    position: absolute;
+    margin-left: 1000px;
+    width: 250px;
+}
+span{
+    font-size:x-small;
+}
+.newBooks{
+    margin-left: 500px;
+}
+
 
