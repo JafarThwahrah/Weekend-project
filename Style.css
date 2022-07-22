@@ -7,7 +7,7 @@
 header{
     background-color: rgb(171, 65, 65);
     position: relative;
-    background: linear-gradient(180deg,rgb(171, 65, 65) 0%, rgba(43, 44, 112, 0.4) 99.99%, rgba(74, 80, 125, 0) 100%);
+    background: linear-gradient(180deg,beige 0%, rgb(121, 121, 99) 99.99%, rgb(158, 158, 147) 100%);
 }
 header img{
     height: 100px;
