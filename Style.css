@@ -1,0 +1,19 @@
+header{
+    background-color: rgb(171, 65, 65);
+}
+header img{
+    height: 100px;
+    width: 130px;
+    border-radius: 50%;
+    display: inline;
+}
+header ul {
+    list-style: none;
+    display: inline;
+}
+header li{
+    display: inline;
+    padding: 2em 2em 2em 2em;
+    /* margin: 1.5em; */
+}
+
