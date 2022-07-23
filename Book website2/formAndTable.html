@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Form Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header>
+        <img src="./Logo.PNG">
+        <nav>
+           <ul>
+               <li> <a href="./Index.html"> Home</li></a> 
+               <li><a href="./formAndTable.html">My Ebooks</a></li>
+               <li><a href="">Audio books</a></li>
+               <li><a href="">For Kids</a></li>
+               <li><a href="">Resourses</a></li>
+                 <li>
+                   <input type="search" class="searchInput">
+                   <button type="submit" class="searchButton">Search Now</button>
+                 </li>
+                 <li>
+                   <button type="submit" class="loginSignup">Login|Sign up</button>
+                 </li>
+            </ul>
+           </nav>
+
+    </header>
+<main class="secondMain">
+    <div class="formANDaddNewBook">
+        <div action="" id="addNewBook">
+        <label for="Name">Book Name:</label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label for="Name">Author Name:</label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label for="Price">The Price:</label>
+        <input type="number" required>
+        <br>
+        <br>
+        <label for="date">Date Of Publish:</label>
+        <input type="date" required>
+        <br>
+        <br>
+        <label for="Availability">Availability In The Store:</label>
+        <input type="radio" name="Availability" id="Yes" required><label for="Yes">Yes</label>
+        <input type="radio" name="Availability" id="No" required><label for="No">No</label>
+        <br>
+        <br>
+        <label for="Name">The Type Of the Book:</label>
+        <input type="checkbox" >Educational.
+        <input type="checkbox" >Geopolitics.
+        <input type="checkbox" >Noval.
+        <input type="checkbox" >Story.
+        <input type="checkbox" >Military.
+        <br>
+        <br>
+        <button type="submit"> Submit</button>
+        <button type="reset"> Reset</button>
+      
+        </div>
+      
+      
+            <table border="1" class="Books-table">
+            <caption class="table-caption">Your Books</caption>
+            <tr>
+                <td>Book Name</td>
+                <td>Author Name</td>
+                <td>Price</td>
+                <td>Date Of Publish</td>
+                <td>Availability In The Store</td>
+                <td>Type Of The Book</td>
+              </tr>
+              <tr>
+                <td>In Search of Lost Time</td>
+                <td>Marcel Proust
+                </td>
+                <td>40$</td>
+                <td>05/02/2010</td>
+                <td>Yes</td>
+                <td>Noval/Educational</td>
+                
+              </tr>
+              <tr>
+                <td>Ulysses</td>
+                <td>James Joyce</td>
+                <td>60$</td>
+                <td>04/07/2008</td>
+                <td>Yes</td>
+                <td>Geopolitics/Educational</td>
+              </tr>
+              <tr>
+                <td>Don Quixote</td>
+                <td>Miguel de Cervantes</td>
+                <td>80$</td>
+                <td>07/11/2014</td>
+                <td>Yes</td>
+                <td>Economics/Educational</td>
+              </tr>
+              <tr>
+                <td> One Hundred Years of Solitude</td>
+                <td>Gabriel Garcia Marquez</td>
+                <td>70$</td>
+                <td>02/02/2020</td>
+                <td>Yes</td>
+                <td>Noval/literature</td>
+              </tr>
+          </table>
+        </div>
+    </main>
+
+    <footer>
+        <img src="./Logo.PNG">
+        <nav>
+           <ul>
+               <li> <a href=""> Home</li></a> 
+               <li><a href="">Contact</a></li>
+               <li><a href="">About us</a></li>
+               <li><a href="">Resourses</a></li>
+               <li class="choose-language"> <label>Choose a language:</label>
+                <select name="language">
+                  <option value="arabic">arabic</option>
+                  <option value="english">english</option>
+                </select></li>
+           </ul>
+    </nav>
+
+    </footer>
+</body>
+</html>
