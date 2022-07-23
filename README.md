@@ -1,4 +1,4 @@
-# Weekend-project
+# Weekend-Task
 
 Website Task
 
