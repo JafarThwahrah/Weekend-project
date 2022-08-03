@@ -1,0 +1,369 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    /* background-color: rgb(171, 65, 65); */
+    position: relative;
+    background: linear-gradient(180deg,beige 0%, rgb(121, 121, 99) 99.99%, rgb(158, 158, 147) 100%);
+}
+header img{
+    height: 100px;
+    width: 130px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 1.1em;
+    margin-left: 1.1em;
+}
+header ul {
+    list-style: none;
+    margin-top: 0;
+    margin-left: 150px;
+    padding-top: 60px;
+}
+header li{
+    display: inline;
+    padding: 1.2em 1.2em 1.2em 1.2em;
+}
+.searchInput:active { background-image:none; }
+nav {
+    height: 130px;
+}
+.searchInput{
+  margin-left: 100px;
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(https://aux.iconspalace.com/uploads/1352231607285850304.png);
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  background-size: 20px 16px;
+  background-position: 5px;
+}
+.searchIcon{
+    height: 18px;
+    width: 18px;
+    position: inline;
+    margin-right: 150px;
+}
+.searchButton{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.loginSignup{
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    padding: 12.5px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+header a:hover{
+    background-color: brown;
+}
+button:hover{
+    background-color:rgb(196, 191, 186);
+}
+button{
+    cursor:pointer;
+}
+main{
+    position: relative;
+    margin-top: 0;
+}
+.introImg{
+position: absolute;
+height: 250px;
+width: 100%;
+height: 250px;
+z-index: -1;
+opacity: 90%;
+}
+.introText{
+    margin-top: 0;
+   z-index: 1;
+   padding-top: 45px;
+}
+main div h3 {
+    margin-top: 0;
+    font-size:x-large;
+}
+main div p {
+    font-size:larger;
+}
+.midIMG-container{
+    margin-top: 3em;
+    position: relative;
+    height: 500px;
+}
+.firstBook{
+display: inline;
+position: absolute;
+margin-left: 250px;
+width: 250px;
+}
+.secondBook{
+    display: inline;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 80px;
+    width: 250px;
+}
+.thirdBook{
+    display: inline;
+    position: absolute;
+    margin-left: 1000px;
+    width: 250px;
+}
+span{
+    font-size:small;
+}
+.newBooks{
+    margin-left: 500px;
+}
+.bottombackground-container{
+    position: relative;
+}
+.bottombackground{
+    height: 400px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    background-blend-mode:darken;
+    opacity: 80%;
+}
+.h2Secondbg{
+    text-align: center;
+    z-index: 1;
+    font-size: xx-large;
+    color: rgb(71, 0, 0);
+    padding-top: 150px;
+    margin-bottom: 130px;
+}
+section{
+    margin-top: 0;
+    padding-top: 80px;
+    background: radial-gradient(50% 50% at 50% 50%, #baa88e 0%, rgba(74, 80, 125, 0) 100%);
+    position: relative;
+}
+.firstbookimage{
+    margin-left: 450px;
+    position: absolute;
+    height: 300px;
+    margin-top: 50px;
+}
+.formNum1{
+    height: 380px;
+    width: 230px;
+    margin-left: 850px;
+    padding: 2em 2em 2em 2em;
+    background-color: beige;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    
+}
+.formNum2{
+    height: 380px;
+    width: 230px;
+    margin-left: 450px;
+    padding: 2em 2em 2em 2em;
+    background-color: beige;
+    border-radius: 15px;
+    position: absolute;
+}
+.secondbookimage{
+    margin-left: 850px;
+    height: 300px;
+    margin-top: 50px;
+    padding-bottom: 144px; ;
+}
+.testimonais{
+    text-align: center;
+}
+
+.Reviewtablefix td{
+    width: 240px;
+    padding:50px 50px 50px 50px;
+    background-color:#f0dcc1;
+}
+
+.checked {
+    color: orange;
+  }
+
+ 
+footer ul {
+  list-style: none;
+  margin-top: 0;
+  margin-left: 150px;
+  padding-top: 60px;
+}
+footer li{
+  display: inline;
+  padding: 1.2em 1.2em 1.2em 1.2em;
+}
+footer{
+  background-color: rgb(171, 65, 65);
+}
+.choose-language{
+  margin-left: 350px;
+}
+
+.choose-language label {
+  color: white;
+}
+  
+.blog1{
+    display: inline-block;
+    text-align: center;
+    width: 240px;
+    padding:50px 50px 50px 50px;
+  }
+
+  .blog2{
+    display: inline-block;
+    text-align: center;
+    width: 240px;
+    padding:50px 50px 50px 50px;
+  }
+
+  .blog-container{
+    text-align: center;
+    margin-top: 50px;
+    background: radial-gradient(50% 50% at 50% 50%, #baa88e 0%, rgba(74, 80, 125, 0) 100%);
+  }
+
+  .blog-container button{
+ border-radius: 20px;
+ border: none;
+  }
+.choose-language{
+    margin-left: 350px;
+}
+
+.choose-language label {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*........................................ Second Page............................................... */
+
+
+
+
+
+
+
+
+
+
+#addNewBook{
+    background-color: beige;
+    display: inline-block;
+    padding:  3em 3em 3em 3em;
+    border-radius: 15px;
+
+}
+
+.Books-table{
+    background-color: beige;
+    padding:  3em 3em 3em 3em;
+    margin-top: 40px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 250px;
+
+}
+
+
+
+.table-caption {
+
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.formANDaddNewBook{
+text-align: center;
+}
+.secondMain{
+    background-color: #f0dcc1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.container {
+    background-color: rgb(198, 77, 77);
+      height: 350px;
+}
+.Box{
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+.container:nth-child(odd){
+    background-color: yellow;
+}
+
+.container:nth-child(even){
+    background-color: green;
+    margin-top: 50px;
+}
+
+
+
+#addNewBook{
+    background-color: beige;
+    display: inline-block;
+    padding:  3em 3em 3em 3em;
+    border-radius: 15px;
+
+}
+
+.Books-table{
+    background-color: beige;
+    padding:  3em 3em 3em 3em;
+    margin-top: 40px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 250px;
+
+}
+
+
+
+.table-caption {
+
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.formANDaddNewBook{
+text-align: center;
+}
+.secondMain{
+    background-color: #f0dcc1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+} 
